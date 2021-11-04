@@ -24,6 +24,10 @@
   text-decoration: none;
   color: white;
 }
+.nav-item :hover{
+  color: goldenrod;
+  background-color: white;
+}
 
 .main-calendar{
   
