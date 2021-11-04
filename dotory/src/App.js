@@ -10,7 +10,7 @@ function App() {
   
   return (
     <div className="App">
-      <div className="main-title">🐿 DoTory 🐿</div>
+      <div className="main-title" ><a href ="">DoTory 🐿</a></div>
       
       <nav>
         <ul className="nav-container">
