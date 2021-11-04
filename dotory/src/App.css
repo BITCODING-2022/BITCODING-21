@@ -1,0 +1,30 @@
+
+
+.App{
+  text-align: center;
+}
+
+.nav-container{
+  flex-direction:row;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: goldenrod;
+  list-style-type: none;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.nav-item{
+  display: inline-block;
+  padding: 15px;
+  cursor: pointer;
+}
+.nav-item a{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.main-calendar{
+  
+}
