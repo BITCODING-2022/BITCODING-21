@@ -14,7 +14,7 @@ class DiaryPage extends Component { //자바랑 거의 비슷 subject를 객체�
     this.state ={
       mode:'welcome',
       selected_content_id:2,
-      subject:{title: 'Today\'s Diary'},
+      subject:{ title: 'Today\'s Diary'},
       welcome:{title:'Welcome', desc:'How about your\'s day?'},
       contents:[
         {id:1, title:'#01. 일기',desc:'오늘도 코딩은 정말 개빡쳐'},
@@ -61,7 +61,7 @@ class DiaryPage extends Component { //자바랑 거의 비슷 subject를 객체�
       
       return (
     <div className="App"> 
-     <Subject
+     <Subject className="TODAY"
       title={this.state.subject.title}
       sub={this.state.subject.sub}
       onChangePage={function(){
