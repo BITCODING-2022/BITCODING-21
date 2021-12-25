@@ -9,7 +9,10 @@
     margin-bottom: 20px;
 }
 .FONT{
-    font-size: 35px;
+    font-size: 40px;
+    text-decoration: none;
+    color: GOLDENROD;
+    text-align:center;
 }
 .LIST a{
     text-align: center;
