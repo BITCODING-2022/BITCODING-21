@@ -1,0 +1,74 @@
+.LIST{
+    flex-direction:row;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: goldenrod;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.FONT{
+    font-size: 35px;
+}
+.LIST a{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 22px;
+}
+.LIST :hover{
+    color: goldenrod;
+    background-color: white;
+}
+.TEXTTITLE{
+    width:600px;
+    display:inline-bloack;
+    height:20px;
+     font-size:20px;
+}
+.TEXTAREADES{
+    width:600px;
+    height:400px;
+    font-size:20px;
+}
+.CREATELI{
+    list-style: none;
+    text-decoration:none;
+}
+.DELETELI{
+    list-style: none;
+    text-decoration:none;
+   
+}
+.CREATE{
+    font-size:2.25rem;
+
+}
+
+.DELETE{
+    font-size:1.25rem;
+    padding: 10px 20px;
+    color: RED;
+    border-radius:12px;
+    border-color:WHITE;
+    background-color:WHITE;
+}
+.BUTTON{
+    font-size:1.25rem;
+    padding: 10px 20px;
+    color: WHITE;
+     border-radius:12px;
+     border-color:WHITE;
+    background-color:GOLDENROD;
+}
+.BUTTON:hover{
+    background: WHITE;
+    color: GOLDENROD;
+}
+.DELETE:hover{
+    background: RED;
+    color: WHITE;
+}
+
